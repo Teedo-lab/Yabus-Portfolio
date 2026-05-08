@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yabu Genemo — Visual Designer & Director</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== ENTER ANIMATION OVERLAY ===== -->
+  <div class="enter-overlay" id="enterOverlay">
+    <div class="enter-logo">YABU.</div>
+    <div class="enter-bar"></div>
+  </div>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav" id="mainNav">
+    <a href="#" class="nav-logo">YABU.</a>
+    <ul class="nav-links">
+      <li><a href="#work" class="nav-link">WORK</a></li>
+      <li><a href="#about" class="nav-link">ABOUT</a></li>
+      <li><a href="#play" class="nav-link">PLAY</a></li>
+      <li><a href="#contact" class="nav-link">CONTACT</a></li>
+      <li><a href="#" class="nav-star">✦</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-blob"></div>
+
+    <div class="hero-content">
+      <div class="hero-text-block">
+        <h1 class="hero-title" data-parallax="0.3">
+          <span class="title-line reveal-word">YABU</span>
+          <span class="title-line italic-script reveal-word">Genemo</span>
+          <span class="title-line reveal-word">Portfolio</span>
+        </h1>
+        <div class="hero-orbit">
+          <svg class="orbit-path" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 80 Q100 -20 190 50" stroke="#c0392b" stroke-width="1.2" fill="none"/>
+            <circle cx="10" cy="80" r="5" fill="#5aabcc"/>
+            <circle cx="190" cy="50" r="4" fill="#5aabcc"/>
+          </svg>
+          <span class="sparkle sparkle-1">✦</span>
+          <span class="sparkle sparkle-2">+</span>
+        </div>
+        <p class="hero-sub reveal-up">I'd like to think that I'm a visual designer & director creating <br>bold ideas and meaningful experiences<br>through design, motion and storytelling. (But really I dont know what I'm doing. 🤪)</p>
+        <a href="#work" class="hero-cta reveal-up">VIEW MY WORK <span>↗</span></a>
+      </div>
+
+      <div class="hero-photo-wrapper" data-parallax="0.15">
+        <div class="hero-blob-bg"></div>
+        <div class="hero-photo-frame">
+          <div class="hero-photo-placeholder">
+            <div class="photo-silhouette">
+              <img src="assets/images/MyCharacter.png" alt="My Character">
+            </div>
+          </div>
+        </div>
+        <div class="minnesota-badge">
+          <svg viewBox="0 0 100 100" class="badge-circle">
+            <path id="badgeTextPath" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="none"/>
+            <text class="badge-text">
+              <textPath href="#badgeTextPath" startOffset="0%">BASED IN MINNESOTA · BASED IN MINNESOTA · </textPath>
+            </text>
+          </svg>
+          <span class="badge-emoji">☺</span>
+        </div>
+        <div class="deco-lines">
+          <span class="deco-line"></span>
+          <span class="deco-line"></span>
+          <span class="deco-line"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <span class="scroll-arrow">↓</span>
+    </div>
+  </section>
+
+  <!-- ===== SELECTED WORK ===== -->
+  <section class="work-section" id="work">
+    <div class="work-header">
+      <h2 class="work-title reveal-up">SELECTED WORK <span class="star-accent">✦</span></h2>
+      <a href="#" class="view-all-btn reveal-up">VIEW ALL WORK ↗</a>
+    </div>
+
+    <div class="bento-grid">
+      <!-- Card 1 - Vanta -->
+      <div class="bento-card bento-red bento-tall reveal-card" style="--delay: 0s">
+        <div class="card-bg-img card-bg-vanta"></div>
+        <div class="card-content">
+          <div class="card-meta">
+            <p class="card-cat">E-COMMERCE<br>EXPERIENCE</p>
+          </div>
+          <div class="card-footer">
+            <h3 class="card-title">THAWBUN</h3>
+            <a href="https://thawbun.com" class="card-link" target="_blank" rel="noopener noreferrer" aria-label="Visit THAWBUN">↗</a>
+          </div>
+        </div>
+        <div class="card-hover-overlay"><img src="assets/images/Thawbun-Hover.png" alt="Thawbun Hover"></div>
+      </div>
+
+      <!-- Card 2 - Kroma -->
+      <div class="bento-card bento-blue bento-wide reveal-card" style="--delay: 0.1s">
+        <div class="card-bg-img card-bg-kroma"></div>
+        <div class="card-content">
+          <div class="card-meta">
+            <p class="card-cat">WEB DESIGN</p>
+          </div>
+          <div class="card-footer">
+            <h3 class="card-title">KROMA</h3>
+            <a href="https://kroma.ai/" class="card-link" target="_blank" rel="noopener noreferrer" aria-label="Visit KROMA">↗</a>
+          </div>
+        </div>
+        <div class="card-hover-overlay"><img src="assets/images/Kroma-Hover.png" alt="Kroma Hover"></div>
+      </div>
+
+      <!-- Card 3 - Soéthic -->
+      <div class="bento-card bento-salmon reveal-card" style="--delay: 0.2s">
+        <div class="card-bg-img card-bg-soethic"></div>
+        <div class="card-content">
+          <div class="card-meta">
+            <p class="card-cat">BRAND<br>IDENTITY</p>
+          </div>
+          <div class="card-footer">
+            <h3 class="card-title">SOÉTHIC</h3>
+            <a href="https://preprod.soethic.com/" class="card-link" target="_blank" rel="noopener noreferrer" aria-label="Visit SOÉTHIC">↗</a>
+          </div>
+        </div>
+        <div class="card-hover-overlay"><img src="assets/images/Soethic-Hover.png" alt="Soéthic Hover"></div>
+      </div>
+
+      <!-- Card 4 - Novel -->
+      <div class="bento-card bento-sky reveal-card" style="--delay: 0.3s">
+        <div class="card-content card-content-centered">
+          <div class="novel-display">NOVEL</div>
+          <div class="card-meta">
+            <p class="card-cat">CREATIVE DIRECTION</p>
+          </div>
+          <a href="https://novel.com/" class="card-link card-link-corner" target="_blank" rel="noopener noreferrer" aria-label="Visit NOVEL">↗</a>
+        </div>
+        <div class="card-hover-overlay"><img src="assets/images/Novel-Hover.png" alt="Novel Hover"></div>
+      </div>
+
+      <!-- Card 5 - Playground -->
+      <div class="bento-card bento-olive reveal-card" style="--delay: 0.4s">
+        <div class="card-bg-img card-bg-playground"></div>
+        <div class="card-content">
+          <div class="card-meta">
+            <p class="card-cat">ART DIRECTION</p>
+          </div>
+          <div class="card-footer">
+            <h3 class="card-title">PLAYGROUND</h3>
+            <a href="#" class="card-link">↗</a>
+          </div>
+        </div>
+        <div class="card-hover-overlay"><img src="assets/images/Playground-Hover.png" alt="Playground Hover"></div>
+      </div>
+
+      <!-- Card 6 - Faze Agency -->
+      <div class="bento-card bento-cream reveal-card" style="--delay: 0.5s">
+        <div class="card-content card-content-logo">
+          <div class="faze-logo">
+            <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="faze-icon">
+              <path d="M30 5 L55 20 L55 40 L30 55 L5 40 L5 20 Z" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
+              <path d="M30 5 L30 55 M5 20 L55 40 M55 20 L5 40" stroke="#1a1a1a" stroke-width="1.5" opacity="0.4"/>
+            </svg>
+            <p class="faze-name">FAZE<br>AGENCY</p>
+          </div>
+          <div class="card-meta">
+            <p class="card-cat">BRANDING<br>& WEBSITE</p>
+          </div>
+          <a href="https://faze.agency/" class="card-link card-link-corner" target="_blank" rel="noopener noreferrer" aria-label="Visit FAZE AGENCY">↗</a>
+        </div>
+        <div class="card-hover-overlay"><img src="assets/images/Faze-Hover.png" alt="Faze Agency Hover"></div>
+      </div>
+
+      <!-- Card 7 - Basd -->
+      <div class="bento-card bento-dark-photo reveal-card" style="--delay: 0.6s">
+        <div class="card-bg-img card-bg-basd"></div>
+        <div class="card-content">
+          <div class="card-footer">
+            <div></div>
+            <a href="https://basd.com/" class="card-link" target="_blank" rel="noopener noreferrer" aria-label="Visit BASD">↗</a>
+          </div>
+        </div>
+        <div class="card-hover-overlay"><img src="assets/images/Basd-Hover.png" alt="Basd Hover"></div>
+      </div>
+
+      <!-- Card 8 - Basd Mag -->
+      <div class="bento-card bento-orange reveal-card" style="--delay: 0.7s">
+        <div class="card-content">
+          <div class="card-meta">
+            <p class="card-cat">EDITORIAL<br>DESIGN</p>
+          </div>
+          <div class="card-footer">
+            <h3 class="card-title">BASD MAG</h3>
+            <a href="https://mag.basd.com/" class="card-link" target="_blank" rel="noopener noreferrer" aria-label="Visit BASD MAG">↗</a>
+          </div>
+        </div>
+        <div class="card-hover-overlay"><img src="assets/images/BasdMag-Hover.png" alt="Basd Mag Hover"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-label reveal-up">ABOUT</div>
+      <h2 class="about-heading reveal-up">Crafting bold ideas<br>& <em>meaningful</em> experiences.</h2>
+      <p class="about-body reveal-up">Based in Minnesota, I work at the intersection of visual design, motion, and storytelling — building brands, campaigns, and digital experiences that leave a mark. Every project is an opportunity to push boundaries and make something worth remembering.</p>
+      <div class="about-stats reveal-up">
+        <div class="stat">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Projects Completed</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Happy Clients</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-deco">✦</div>
+  </section>
+
+  <!-- ===== PLAY SECTION ===== -->
+  <section class="play-section" id="play">
+    <div class="play-inner">
+      <div class="about-label reveal-up">PLAY</div>
+      <h2 class="about-heading reveal-up">Experiments &<br><em>side projects.</em></h2>
+      <p class="about-body reveal-up">A space for personal experiments, motion studies, and creative detours. More coming soon.</p>
+    </div>
+    <div class="about-deco">✦</div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee-wrapper">
+    <div class="marquee-track">
+      <span>VISUAL DESIGN</span><span class="dot">·</span>
+      <span>MOTION</span><span class="dot">·</span>
+      <span>STORYTELLING</span><span class="dot">·</span>
+      <span>BRANDING</span><span class="dot">·</span>
+      <span>ART DIRECTION</span><span class="dot">·</span>
+      <span>WEB DESIGN</span><span class="dot">·</span>
+      <span>EDITORIAL</span><span class="dot">·</span>
+      <span>VISUAL DESIGN</span><span class="dot">·</span>
+      <span>MOTION</span><span class="dot">·</span>
+      <span>STORYTELLING</span><span class="dot">·</span>
+      <span>BRANDING</span><span class="dot">·</span>
+      <span>ART DIRECTION</span><span class="dot">·</span>
+      <span>WEB DESIGN</span><span class="dot">·</span>
+      <span>EDITORIAL</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="footer-top">
+      <p class="footer-tagline">☺ LET'S CREATE SOMETHING FUN TOGETHER.</p>
+      <div class="footer-socials">
+        <a href="#" class="footer-link">INSTAGRAM</a>
+        <a href="#" class="footer-link">DRIBBBLE</a>
+        <a href="https://www.linkedin.com/in/yabu-genemo-22ab46218/" target="_blank" rel="noopener noreferrer" class="footer-link">LINKEDIN</a>
+      </div>
+      <p class="footer-copy" id="footerCopy">© 2026 YABU GENEMO</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
